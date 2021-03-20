@@ -3,12 +3,17 @@
     padding: 0;
 }
 
+body {
+    box-sizing: border-box;
+}
+
 *:root {
     --veryLight-grey: #f6f6f6;
     --light-grey: #EBD5D5;
     --grey: #707070;
     --almost-black: #343434;
-    --dark-blue: #09092B;
+    --very-dark-blue: #09092B;
+    --dark-blue: #05084A;
     --dark-red: #AF3C3C;
 }
 
@@ -20,9 +25,25 @@ img {
     width: 100%;
 }
 
+.row {
+    display: flex;
+}
+
+.button {
+    padding: .45em .5em;
+    background: var(--light-grey);
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.button:hover {
+    opacity: .7;
+}
+
 .hero {
     height: 60vh;
-    background: url('./Foto-hero.jpg') no-repeat 0 0 var(--dark-blue);
+    background: url('./Foto-hero.jpg') no-repeat 0 -10rem var(--very-dark-blue);
+    background-size: 1920px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,4 +55,80 @@ img {
     font-size: 2.5rem;
 }
 
-.navbar
+.navbar {
+    display: flex;
+    padding: 1.5em 1em;
+    background-color: var(--very-dark-blue);
+    justify-content: space-between;
+}
+
+.navbar__icon{
+    width: 3rem;   
+}
+
+.navbar__search-div {
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 1px solid var(--grey);
+    align-self: center;
+}
+
+.navbar__input-text {
+    padding: .8em .5em;
+    font-size: .9rem;
+    font-weight: 800;
+    background: var(--dark-blue);
+    color: var(--veryLight-grey);
+    outline: none;
+}
+
+.navbar__input-text::placeholder {
+    color: var(--grey);
+    font-size: .9rem;
+    font-weight: 800;
+}
+
+.navbar__list {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 20rem;
+}
+
+.li-item {
+    list-style:none;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.li-item a{
+    color: var(--veryLight-grey);
+    text-decoration: none;
+}
+
+.li-separator {
+    position: relative;
+}
+
+.li-separator::after {
+    content:'|';
+    position:absolute;
+    top: -1.9rem;
+    left: -2.3rem;
+    color: var(--veryLight-grey);
+    font-family: serif;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.li-separator::before {
+    content:'|';
+    position:absolute;
+    top: -1.9rem;
+    right: -2.3rem;
+    color: var(--veryLight-grey);
+    font-family: serif;
+    font-size: 4rem;
+    font-weight: 100;
+}
