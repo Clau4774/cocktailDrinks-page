@@ -58,8 +58,8 @@ img {
 .navbar {
     display: flex;
     padding: 1.5em 1em;
-    background-color: var(--very-dark-blue);
-    justify-content: space-between;
+    background: linear-gradient(45deg, var(--very-dark-blue), var(--dark-blue));
+    justify-content: space-around;
 }
 
 .navbar__icon{
@@ -89,14 +89,50 @@ img {
     font-weight: 800;
 }
 
+.ham-menu{
+    position: relative;
+    align-self: center;
+    width: 1.5rem;
+    height: .2rem;
+    background-color:var(--veryLight-grey);
+    border-radius: 25px;
+}
+
+.ham-menu::after{
+    content: '';
+    position: absolute;
+    align-self: center;
+    width: 1.5rem;
+    height: .2rem;
+    top: .5rem;
+    left: 0;
+    background-color:var(--veryLight-grey);
+    margin-right: 2rem;
+    border-radius: 25px;
+}
+
+.ham-menu::before{
+    content: '';
+    position: absolute;
+    align-self: center;
+    width: 1.5rem;
+    height: .2rem;
+    top: -.5rem;
+    left: 0;
+    background-color:var(--veryLight-grey);
+    margin-right: 2rem;
+    border-radius: 25px;
+}
+
 .navbar__list {
+    display: none;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    width: 20rem;
 }
 
 .li-item {
+    display: none;
     list-style:none;
     font-weight: 700;
     font-size: 1.4rem;
@@ -105,6 +141,7 @@ img {
 .li-item a{
     color: var(--veryLight-grey);
     text-decoration: none;
+    width: 100%;
 }
 
 .li-separator {
@@ -131,4 +168,28 @@ img {
     font-family: serif;
     font-size: 4rem;
     font-weight: 100;
+}
+
+.phone-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.phone-menu ul{
+    list-style: none;
+    width: 100%;
+}
+
+.phone-menu a {
+    display: block;
+    color: var(--veryLight-grey);
+    padding: .3em .5rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-align: center;
+    border: 1px solid var(--grey);
+    background: linear-gradient(45deg, var(--very-dark-blue), var(--dark-blue));
 }
