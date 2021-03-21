@@ -26,16 +26,29 @@
             <li class="li-item li-separator"><a href="#">Drinks</a></li>
             <li class="li-item"><a href="#">Stories</a></li>
         </ul>
-        <div class="ham-menu">
+    </nav> <!-- ends desktop menu-->
+    <!--Strats mobile menu-->
+    <nav class="navbar__mobile">
+        <div class="navbar__icon">
+            <a href="#"><img src="./style/martini.svg" alt="Cocktail glass picture"></a>
         </div>
-    </nav>
-    <div class="phone-menu">
-        <ul>
-            <li class=""><a href="#">Home</a></li>
-            <li class=" li-separator"><a href="#">Drinks</a></li>
-            <li class=""><a href="#">Stories</a></li>
-        </ul>
-    </div>
+        <div class="ham-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+            <ul class="mobile-menu close-open-menu">
+                <li class="li-item"><a href="#">Home</a></li>
+                <li class="li-item"><a href="#">Drinks</a></li>
+                <li class="li-item"><a href="#">Stories</a></li>
+                <li>
+                    <div class="navbar__search-div row">
+                    <input type="text" placeholder="Search your drink..." class="navbar__input-text">
+                    <div class="button">
+                        <p>Search</p>
+                    </div>
+                </div>
+                </li>
+            </ul>
+    </nav> <!--Ends Mobile menu-->
     <main class="main-content container">
         <h2 class="main__title">Our Cockatail Dedicated Page</h2>
         <h3 class="main__subtitle">A site in what you can find a large list of cocktails collections, stories and more...</h3>
