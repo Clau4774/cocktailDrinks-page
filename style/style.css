@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
 *, *::after, *::before {
     margin:0;
     padding: 0;
@@ -25,6 +27,7 @@ img {
 
 .row {
     display: flex;
+    justify-content: space-between;
 }
 
 .container {
@@ -63,6 +66,7 @@ img {
     color: var(--veryLight-grey);
     text-shadow: 0 5px 1px var(--dark-red);
     font-size: 2rem;
+    font-family: 'Aclonica', sans-serif;
 }
 /* Hero ends */
 /* Navbar starts */
@@ -96,7 +100,7 @@ img {
     color: var(--veryLight-grey);
     outline: none;
     width:100%;
-    
+    border: none;
 }
 
 .navbar__input-text::placeholder {
@@ -106,7 +110,7 @@ img {
 }
 
 .ham-menu{
-    position: absolute;
+    position: relative;
     color:var(--veryLight-grey);
     top: 1.7rem;
     right: 2rem;
@@ -125,6 +129,7 @@ img {
     font-weight: 700;
     font-size: 1.4rem;
     text-align: center;
+    transition: opacity .3s;
 }
 
 .li-item a{
@@ -166,15 +171,17 @@ img {
 }
 
 .mobile-menu {
-    display: flex;
+    position: relative;
     width:100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-height: 173px;
+    transition: max-height .3s, opacity .6s;
+    opacity: 1;
 }
 
 .close-open-menu{
-    display: none;
+    top: -60rem;
+    max-height: 0px;
+    opacity: 0;
 }
 
 
@@ -222,6 +229,11 @@ img {
     align-items: center;
     text-transform: capitalize;
     margin-bottom: 3rem;
+}
+
+.cocktail-container__group a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .cocktail-container {
@@ -293,8 +305,38 @@ img {
 .social-media a {
     color: var(--veryLight-grey);
 }
+
+.social.icon {
+    opacity: 1;
+    transition: 1s;
+}
+
+.social-icon:hover {
+    opacity: .7;
+}
 /* Rights ends */
 /* Media querys starts */
+
+@media (min-width: 652px) {
+    .cocktail-container__group {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 40rem;
+        background: #FFFFFF;
+        border: 1px solid var(--grey);
+    }
+
+    .navbar__icon {
+        margin-left: 4rem;
+    }
+
+    .ham-menu {
+        margin-right: 4rem;
+    }
+}
+
 @media (min-width:768px) {
     .main__title {
         text-align: left;
@@ -316,18 +358,6 @@ img {
         margin-left: 2rem;
     }
 
-}
-
-@media (min-width: 652px) {
-    .cocktail-container__group {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        max-width: 40rem;
-        background: #FFFFFF;
-        border: 1px solid var(--grey);
-    }
 }
 
 @media (min-width: 852px) {
@@ -371,6 +401,29 @@ img {
 }
 
 @media (min-width: 1024px) {
+    .navbar__mobile {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+
+    }
+
+    .navbar__icon {
+        padding: 0;
+    }
+
+    .navbar__search-div {
+        width: 100%;
+        max-width: 20rem;
+    }
+
+
+    .li-item:hover {
+        opacity: .5;
+    }
+
     .aside-content {
         display: block;
         width: 30%;
@@ -378,6 +431,7 @@ img {
         border: 1px solid var(--grey);
         padding: 2em 1em;
         margin-bottom: 3em;
+        background-color: #FFFFFF;
     }
 
     .aside-content img {
@@ -389,7 +443,7 @@ img {
 
     .aside-content p {
         display: inline-block;
-        padding: 0 0 .3em .8em;
+        padding: 0 0 .3em 1.5em;
         color: var(--grey)
     }
 
@@ -403,7 +457,22 @@ img {
     .aside-content p:first-child::after {
         content: '';
         position: absolute;
-        width: 
+        width: 8rem;
+        height: .15rem;
+        background: var(--grey);
+        top: 1.5rem;
+        left: 1.5rem;
+    }
+
+    .aside-content p:first-child::before {
+        content: '';
+        position: absolute;
+        width: 7.5rem;
+        height: .15rem;
+        background: var(--grey);
+        top: 3.0rem;
+        left: -3rem;
+        transform: rotate(90deg);
     }
 
     .aside-content-item {
@@ -411,11 +480,28 @@ img {
         margin-bottom: .8em;
         border-bottom: 2px solid var(--grey);
         padding-bottom: .8em;
+        align-items: center
     }
 
     .aside-content-item:last-child {
         margin-bottom:0;
         border-bottom: none;
+    }
+}
+
+@media (min-width: 1366px){
+    .hero {
+        background-size: 1366px;
+    }
+
+    .hero__title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 1475px) {
+    .hero {
+        background-size: 1980px;
     }
 }
 /* Media querys ends */
