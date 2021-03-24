@@ -1,0 +1,48 @@
+[
+    {
+        "title" : "Gin tonic",
+        "img" : "../style/cocktails/gin-tonic.jpg",
+        "alt" : "A gin tonic picture"
+    },
+    {
+        "title" : "Margarita",
+        "img" : "../style/cocktails/margarita.jpg",
+        "alt" : "A margarita picture"
+    },
+    {
+        "title" : "Mojito",
+        "img" : "../style/cocktails/mojito.jpg",
+        "alt" : "A mojit picture"
+    },
+    {
+        "title" : "Negroni",
+        "img" : "../style/cocktails/negroni.jpg",
+        "alt" : "A negroni picture"
+    },
+    {
+        "title" : "Old fashioned",
+        "img" : "../style/cocktails/old-fashioned.jpg",
+        "alt" : "A old fashioned picture"
+    },
+
+    {
+        "title" : "Hanky panky",
+        "img" : "../style/cocktails/hanky-panky.jpg",
+        "alt" : "A hanky panky picture"
+    },
+    {
+        "title" : "Penicillin",
+        "img" : "../style/cocktails/penicillin.jpg",
+        "alt" : "A penicillin picture"
+    },
+    {
+        "title" : "Basil smash",
+        "img" : "../style/cocktails/basil-smash.jpg",
+        "alt" : "A basil smash picture"
+    },
+    {
+        "title" : "New york sour",
+        "img" : "../style/cocktails/new-york-sour.jpg",
+        "alt" : "A new york sour picture"
+    }
+]
