@@ -2,47 +2,56 @@
     {
         "title" : "Gin tonic",
         "img" : "../style/cocktails/gin-tonic.jpg",
+        "alt" : "A gin tonic picture",
         "content" : "A gin and tonic or, less frequently, gin tonic, is a highball cocktail made with gin and tonic water poured over a large amount of ice..."
     },
     {
         "title" : "Margarita",
         "img" : "../style/cocktails/margarita.jpg",
+        "alt" : "A margarita picture",
         "content" : "A margarita is a cocktail consisting of tequila, orange liqueur, and lime juice often served with salt on the rim of the glass. The drink is served shaken with ice..."
     },
     {
         "title" : "Mojito",
         "img" : "../style/cocktails/mojito.jpg",
+        "alt" : "A mojito picture",
         "content" : "Mojito (/moʊˈhiːtoʊ/; Spanish: [moˈxito]) is a traditional Cuban highball. The cocktail often consists of five ingredients: white rum, sugar (traditionally sugar cane juice)..."
     },
     {
         "title" : "Negroni",
         "img" : "../style/cocktails/negroni.jpg",
+        "alt" : "A negroni picture",
         "content" : "The Negroni is a popular Italian cocktail, made of one part gin, one part vermouth rosso (red, semi-sweet), and one part Campari, garnished with orange peel.[1] It is considered an apéritif..."
     },
     {
         "title" : "Old fashioned",
         "img" : "../style/cocktails/old-fashioned.jpg",
+        "alt" : "A old fashined picture",
         "content" : "The old fashioned is a cocktail made by muddling sugar with bitters and water, adding whiskey or, less commonly, brandy, and garnishing with orange slice or zest and a cocktail cherry..."
     },
 
     {
         "title" : "Hanky panky",
         "img" : "../style/cocktails/hanky-panky.jpg",
+        "alt" : "A hanky panky picture",
         "content" : "The Hanky-Panky was the brainchild of Ada Coleman (known as \"Coley\") who began as a bartender at the Savoy Hotel in 1903. Her benefactor was Rupert D'Oyly Carte, a member of the family that first produced Gilbert and Sullivan operas in London and that built the Savoy Hotel. When Rupert became chairman of the Savoy, Ada w"
     },
     {
         "title" : "Penicillin",
         "img" : "../style/cocktails/penicillin.jpg",
+        "alt" : "A penicillin picture",
         "content" : "The drink was created in 2005 by New York bartender Sam Ross. Its name derives from the drug penicillin hinting to the medicinal properties of some of its ingredients..."
     },
     {
         "title" : "Basil smash",
         "img" : "../style/cocktails/basil-smash.jpg",
+        "alt" : "A basil smash picture",
         "content" : "The drink was created in 2005 by New York bartender Sam Ross. Its name derives from the drug penicillin hinting to the medicinal properties of some of its ingredients"
     },
     {
         "title" : "New york sour",
         "img" : "../style/cocktails/new-york-sour.jpg",
-        "content" : " traditional sour is composed of spirit, citrus and sugar (and sometimes egg white) and accounts for many of the best known cocktails in rotation today. The esteemed group includes seemingly disparate classics..."
+        "alt" : "A new york sour picture",
+        "content" : "Traditional sour is composed of spirit, citrus and sugar (and sometimes egg white) and accounts for many of the best known cocktails in rotation today. The esteemed group includes seemingly disparate classics..."
     }
 ]

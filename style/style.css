@@ -277,6 +277,10 @@ img {
 .aside-content {
     display: none;
 }
+
+.aside-content__image{
+    width:100%;
+}
 /* Aside ends */
 /* Footer starts */
 .footer {
