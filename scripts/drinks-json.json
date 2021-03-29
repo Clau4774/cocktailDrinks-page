@@ -1,0 +1,65 @@
+[
+    {
+        "title" : "Gin tonic",
+        "img" : "../style/cocktails/gin-tonic.jpg",
+        "alt" : "A gin tonic picture",
+        "content" : "A gin and tonic or, less frequently, gin tonic, is a highball cocktail made with gin and tonic water poured over a large amount of ice.[1] The ratio of gin to tonic varies according to taste, strength of the gin, other drink mixers being added, etc., with most recipes calling for a ratio between 1:1 and 1:3. It is usually garnished with a slice or wedge of lime. To preserve effervescence, the tonic can be poured down a bar spoon.[2] The ice cools the gin, dulling the effect of the alcohol in the mouth and making the drink more pleasant and refreshing to taste.[3]\nIn some countries (e.g. UK), gin and tonic is also marketed pre-mixed in single-serving cans.[4] In the United States, most bars use \"soda out of a gun that in no way, shape, or form resembles quinine water\", according to bartender Dale DeGroff.[5] To get a real gin and tonic, DeGroff recommends specifying bottled tonic.[5] Alternatively, one can add tonic syrup to soda water.[6]\nIt is commonly referred to as a G and T in the UK, US, Canada, Australia, New Zealand and Ireland.[7] In some parts of the world, it is called a gin tonic (e.g. in Germany, Italy, France, Japan ( ジン・トニック, phonetically \"jin tonikku\"), the Netherlands, Spain, Turkey).",
+        "articleLink": "https://en.wikipedia.org/wiki/Gin_and_tonic"
+    },
+    {
+        "title" : "Margarita",
+        "img" : "../style/cocktails/margarita.jpg",
+        "alt" : "A margarita picture",
+        "content" : "A margarita is a cocktail consisting of tequila, orange liqueur, and lime juice often served with salt on the rim of the glass. The drink is served shaken with ice (on the rocks), blended with ice (frozen margarita), or without ice (straight up). Although it has become acceptable to serve a margarita in a wide variety of glass types, ranging from cocktail and wine glasses to pint glasses and even large schooners, the drink is traditionally served in the eponymous margarita glass, a stepped-diameter variant of a cocktail glass or champagne coupe.",
+        "articleLink": "https://en.wikipedia.org/wiki/Margarita"
+    },
+    {
+        "title" : "Mojito",
+        "img" : "../style/cocktails/mojito.jpg",
+        "alt" : "A mojito picture",
+        "content" : "Mojito (/moʊˈhiːtoʊ/; Spanish: [moˈxito]) is a traditional Cuban highball. The cocktail often consists of five ingredients: white rum, sugar (traditionally sugar cane juice), lime juice, soda water, and mint.[1][2] Its combination of sweetness, citrus, and herbaceous mint flavours is intended to complement the rum, and has made the mojito a popular summer drink.[3][4]\nWhen preparing a mojito, fresh lime juice is added to sugar (or to simple syrup) and mint leaves. The mixture is then gently mashed with a muddler. The mint leaves should only be bruised to release the essential oils and should not be shredded.[5] Then rum is added and the mixture is briefly stirred to dissolve the sugar and to lift the mint leaves up from the bottom for better presentation. Finally, the drink is topped with crushed ice and sparkling soda water. Mint leaves and lime wedges are used to garnish the glass.\nMojito\nThe mojito is one of the most famous rum-based highballs. There are several versions of the mojito.[6]",
+        "articleLink": "https://en.wikipedia.org/wiki/Mojito"
+    },
+    {
+        "title" : "Negroni",
+        "img" : "../style/cocktails/negroni.jpg",
+        "alt" : "A negroni picture",
+        "content" : "The Negroni is a popular Italian cocktail, made of one part gin, one part vermouth rosso (red, semi-sweet), and one part Campari, garnished with orange peel.[1] It is considered an apéritif.\nA traditionally made Negroni is stirred, not shaken, and built over ice in an old-fashioned or rocks glass and garnished with a slice of orange. Outside of Italy an orange peel is often used in place of an orange slice.[citation needed]",
+        "articleLink": "https://en.wikipedia.org/wiki/Negroni"
+    },
+    {
+        "title" : "Old fashioned",
+        "img" : "../style/cocktails/old-fashioned.jpg",
+        "alt" : "A old fashined picture",
+        "content" : "The old fashioned is a cocktail made by muddling sugar with bitters and water, adding whiskey or, less commonly, brandy, and garnishing with orange slice or zest and a cocktail cherry. It is traditionally served in an old fashioned glass (also known as rocks glass), which predated the cocktail.\nDeveloped during the 19th century and given its name in the 1880s, it is an IBA Official Cocktail.[1] It is also one of six basic drinks listed in David A. Embury's The Fine Art of Mixing Drinks.",
+        "articleLink": "https://en.wikipedia.org/wiki/Old_fashioned_(cocktail)"
+    },
+    {
+        "title" : "Hanky panky",
+        "img" : "../style/cocktails/hanky-panky.jpg",
+        "alt" : "A hanky panky picture",
+        "content" : "The Hanky-Panky was the brainchild of Ada Coleman (known as \"Coley\") who began as a bartender at the Savoy Hotel in 1903. Her benefactor was Rupert D'Oyly Carte, a member of the family that first produced Gilbert and Sullivan operas in London and that built the Savoy Hotel. When Rupert became chairman of the Savoy, Ada was given a position at the hotel's American Bar, where she eventually became the head bartender and made cocktails for the likes of Mark Twain, the Prince of Wales, Prince Wilhelm of Sweden, and Sir Charles Hawtrey.",
+        "articleLink": "https://en.wikipedia.org/wiki/Hanky-Panky_cocktail"
+    },
+    {
+        "title" : "Penicillin",
+        "img" : "../style/cocktails/penicillin.jpg",
+        "alt" : "A penicillin picture",
+        "content" : "The drink was created in 2005 by New York bartender Sam Ross. Its name derives from the drug penicillin hinting to the medicinal properties of some of its ingredients, with suggested effects similar to that of a hot toddy which is said to relieve the symptoms of cold and flu.[2][3]\nIt was first served in 2005 at Milk & Honey.[4]",
+        "articleLink": "https://en.wikipedia.org/wiki/Penicillin_(cocktail)"
+    },
+    {
+        "title" : "Gin basil smash",
+        "img" : "../style/cocktails/basil-smash.jpg",
+        "alt" : "A basil smash picture",
+        "content" : "Created in the summer of 2008 by Jörg Meyer at Le Lion • Bar de Paris, Hamburg, Germany and originally named Gin Pesto. Jörg blogged about his new creation on the 10th of July 2008 and from that point it started to quickly grow in popularity to become internationally known, also becoming better known as the Gin Basil Smash",
+        "articleLink": "https://www.diffordsguide.com/cocktails/recipe/3282/gin-basil-smash"
+    },
+    {
+        "title" : "New york sour",
+        "img" : "../style/cocktails/new-york-sour.jpg",
+        "alt" : "A new york sour picture",
+        "content" : "A traditional sour is composed of spirit, citrus and sugar (and sometimes egg white) and accounts for many of the best known cocktails in rotation today. The esteemed group includes seemingly disparate classics like the Daiquiri, Pisco Sour and Whiskey Sour, so it’s a varied bunch.\nThe Whiskey Sour comes from the mid-19th century and is believed to have first appeared in print in the 1862 edition of the famed “Jerry Thomas Bartenders Guide.” In addition to being one of America’s great cocktail inventions, the Whiskey Sour has persevered through time and is still beloved. It has spawned numerous variations, but perhaps none so popular as the New York Sour.\nThe New York Sour updates the Whiskey Sour recipe (whiskey, lemon, sugar, egg white) with a float of dry red wine. The wine lends its aromatic qualities and deep red color to the drink. Reports trace the New York Sour back to the 1870s or 1880s, although it operated under other names during this time, including the Continental Sour. It’s possible that the New York Sour was created in Chicago, but in time, the New York label grabbed on and never let go.\nThis recipe comes from Allen Katz, the co-founder of New York Distilling Company and a leading expert on spirits and cocktails. He suggests either rye whiskey or bourbon as your base. A rye-spiked sour will feature more prominent spice notes than the bourbon version, but both spirits perform admirably. From there, fresh lemon juice and simple syrup keep the cocktail balanced while the egg white adds a silky texture and frothy head. Finally, red wine is slowly floated on top, providing a striking visual in addition to its dry and fruity flavor.\nThe New York Sour is one of those cocktails that is relatively simple to execute, yet looks impressive and tastes complex. So, it has all the hallmarks you want when shaking drinks, whether you’re flying solo or serving a crowd.",
+        "articleLink": "https://www.liquor.com/recipes/new-york-sour/"
+    }
+]

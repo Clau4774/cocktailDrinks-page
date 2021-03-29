@@ -516,7 +516,7 @@ img {
 
 @media (min-width: 1475px) {
     .hero {
-        background-size: 1980px;
+        background-size: 100vw;
     }
 
     .main__title {
